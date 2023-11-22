@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        h4{
+        text-align: center;
+        font-size: xx-large;
+        }
+        button{
+            float:right;
+            width:3.5cm;
+            height:1.5cm;
+            border-radius: 1cm;
+            background-color: aqua;
+        }
+        h2{
+            text-align:center;
+        }
+.lb1{
+            background-color: rgb(156, 226, 142);
+            border: 3px solid blue;
+}
+img{
+    width:15cm;
+    height:10cm;
+}
+        #h1{
+           
+            width:40cm;
+            top: 40cm;
+        }
+        .ra{
+            margin-left:15cm;
+            position: absolute;
+            top:5cm;
+            color:red;
+            size: 30cm;
+        }
+        .ra1{
+           margin-left: 15cm;
+           color: red;
+        }
+        .ra2{
+            position: absolute;
+            color:red ;
+            left:30cm;
+            top: 30cm;
+        }
+        .ra3{
+           position: absolute;
+             left:30cm;
+             top:45cm;
+             color: red;
+             }
+    .ra4{
+        position: absolute;
+        left: 30cm;
+        top: 55cm;
+        color: red;
+    }
+    .ra5{
+        position: absolute;
+        left: 31cm;
+        top:70cm;
+        color:red
+    }
+    .ra6{
+        position: fixed;
+        left: 30cm;
+        top: 80cm;
+    }
+    .ra7{
+        position: absolute;
+        left: 30cm;
+        top: 80cm;
+        color: red;
+    }
+    .ra8{
+    
+        position: absolute;
+        left: 30cm;
+        top: 95cm;
+        color: red;
+    }
+    .ra9{
+        position: absolute;
+        left: 30cm;
+        top:105cm;
+        color: red;
+        }
+        .ra4{
+            position: absolute;
+            left: 50cm;
+        }
+        #h6{
+            position: absolute;
+            right: 2cm;
+        }
+      *{
+        margin: 0%;
+        padding: 0%;
+      }  
+      #bus{
+        position: absolute;
+        left:20cm;
+        top: 5cm;
+      }  
+      #bus1{
+        position: absolute;
+        left: 20cm;
+        top:17cm;
+      }
+      #ph{
+        position: absolute;
+        left:20cm;
+        top: 6cm;
+        
+      }  
+      #us{
+        position: absolute;
+        left: 20cm;
+        top: 7cm;
+      }
+      #ph1{
+        position: absolute;
+        left: 20cm;
+        top: 18cm;
+     }
+     #us1{
+        position: absolute;
+        left: 20cm;
+        top: 19cm;
+
+     }
+     #ph2{
+        position: absolute;
+        left: 20cm;
+        top:31cm ;
+     }
+     #bus2{
+        position: absolute;
+        left: 20cm;
+        top:30cm ; 
+     }
+     #us2{
+        position: absolute;
+        left: 20cm;
+        top: 32cm;
+}
+#bus3{
+    position: absolute;
+    left: 20cm;
+    top: 43cm;
+}
+#ph3{
+        position: absolute;
+        left: 20cm;
+        top:44cm ;
+}
+#us3{
+    position: absolute;
+    left: 20cm;
+    top: 45cm;
+}
+#bus4{
+    position: absolute;
+    left: 20cm;
+    top: 55cm;
+}
+#ph4{
+    position: absolute;
+    left: 20cm;
+    top: 56cm;
+}
+#us4{
+    position: absolute;
+    left: 20cm;
+    top: 57cm;
+}
+#bus5{
+    position: absolute;
+    left: 20cm;
+    top: 69cm;
+}
+#ph5{
+    position: absolute;
+    left: 20cm;
+    top: 70cm;
+}
+#us5{position: absolute;
+    left: 20cm;
+    top: 71cm;
+
+}
+#bus6{
+    position: absolute;
+    left: 20cm;
+    top: 83cm;
+}
+#ph6{
+    position: absolute;
+    left: 20cm;
+    top: 84cm;
+}
+#us6{
+    position: absolute;
+    left: 20cm;
+    top: 85cm;
+}
+#bus7{
+    position: absolute;
+    left: 20cm;
+    top: 95cm;
+}
+#ph7{
+    position: absolute;
+    left: 20cm;
+    top: 96cm;
+}
+#us7{
+    position: absolute;
+    left: 20cm;
+    top: 97cm;
+}
+#bus8{
+    position: absolute;
+    left: 20cm;
+    top: 110cm;
+}
+#ph8{
+    position: absolute;
+    left: 20cm;
+    top: 111cm;
+}
+#us8{
+    position: absolute;
+    left: 20cm;
+    top: 112cm;
+}
+#bus9{
+    position: absolute;
+    left: 20cm;
+    top:120cm;
+}
+#ph9{
+    position: absolute;
+    left: 20cm;
+    top: 121cm;
+}
+#us9{
+    position: absolute;
+    left: 20cm;
+    top:122cm;
+}
+        
+    </style>
+</head>
+<body>
+    <div class="lb1"> 
+        
+           <table>
+                <td><img src="./bus.jpg"></td>
+            <h4>SST LIMOLINER</h4>
+            <h2>(bharat benz a\c seater/sleeper(2+))<br>
+            time:08:45 <u>10h10m</u> 06:55am<br></h2>
+           <td>
+             <h3 class="ra">RATINGS
+                <br>
+             <i class="fa-regular fa-star h6"></i>
+              <i class="fa-regular fa-star h6"></i>
+                <i class="fa-regular fa-star h6"></i>
+               <i class="fa-regular fa-star h6"></i>
+            <i class="fa-regular fa-star h6"></i>
+                 </h3>
+                </td>
+            <i class="fa-solid fa-bus" id="bus"> 25</i>
+            <i class="fa-solid fa-phone"id="ph">      123456789</i>
+            <i class="fa-solid fa-user"id="us">10</i>
+        
+            <A href="./se1.html">
+            <button type="button">SELECT</button> </A>
+       
+           </table>
+    </div>
+    <div class="lb1"> 
+       <table>
+        <td><IMG src="./bus.1.jpg" width="200" height="200"></td>
+            <h4>KRISH TRAVEL</h4>
+       <h2>(NON A\C SEATER \SLEEPER (2+1))<BR>
+            TIME:08:15  <U>10h0m</U>  06:15AM<BR></h2>
+                <td>
+                    <h3 class="ra1">RATINGS
+                       <br>
+                    <i class="fa-regular fa-star h6"></i>
+                     <i class="fa-regular fa-star h6"></i>
+                       <i class="fa-regular fa-star h6"></i>
+                      <i class="fa-regular fa-star h6"></i>
+                   <i class="fa-regular fa-star h6"></i>
+                        </h3>
+                       </td>
+                        <A href="./se2.html">
+                    <button type="button">SELECT</button></A>
+                    
+                        <i class="fa-solid fa-bus" id="bus1"> M25</i>
+                        <i class="fa-solid fa-phone "id="ph1">987654321</i>
+                        <i class="fa-solid fa-user"id="us1">  5</i>
+       </table>
+    </div>
+    <div class="lb1">
+<table>
+            <h4>SABARI TRAVELS</h4>
+           <h2>
+            (bharat benz a\c seater/sleeper(2+))<br>
+            time:09:00 <u>09h0m</u> 06:35am<br></h2>
+            <td>
+                <h3 class="ra2">RATINGS
+                   <br>
+                <i class="fa-regular fa-star h6"></i>
+                 <i class="fa-regular fa-star h6"></i>
+                   <i class="fa-regular fa-star h6"></i>
+                  <i class="fa-regular fa-star h6"></i>
+               <i class="fa-regular fa-star h6"></i>
+                    </h3>
+                   </td>
+            <img src="./img 3.jpg">
+            <A href="./se3.html">
+            <button type="button">SELECT</button> </A> 
+            <i class="fa-solid fa-bus" id="bus2"> Me5</i>
+             <i class="fa-solid fa-phone "id="ph2">987654321</i>
+             <i class="fa-solid fa-user"id="us2">  65</i> 
+</table>
+    </div>
+    <div class="lb1">
+        <table>
+       
+            <h4>CHAKRA TRAVELS</h4>
+            <h2>(bharat benz a\c seater/sleeper(2+))<br>
+            time:09:45<u>08h25m</u> 06:25am<br></h2>
+            <td>
+                <h3 class="ra3">RATINGS
+                   <br>
+                <i class="fa-regular fa-star h6"></i>
+                 <i class="fa-regular fa-star h6"></i>
+                   <i class="fa-regular fa-star h6"></i>
+                  <i class="fa-regular fa-star h6"></i>
+               <i class="fa-regular fa-star h6"></i>
+                    </h3>
+                   </td>
+            <img src="./img 4.jpg">
+            <A href="./se4.html">
+            <button type="button">SELECT</button> </A>
+            <i class="fa-solid fa-bus" id="bus3"> g25</i>
+            <i class="fa-solid fa-phone "id="ph3">987654321</i>
+            <i class="fa-solid fa-user"id="us3"> 7 5</i>   
+        </table>
+    </div>
+    <div class="lb1">
+        <table>
+        
+            <h4>SHRI BHAGYALASH</h4>
+            <h2>(bharat benz a\c seater/sleeper(2+))<br>
+            time:09:15 <u>09h0m</u> 06:30am<br></h2>
+            <td>
+                <h3 class="ra4">RATINGS
+                   <br>
+                <i class="fa-regular fa-star h6"></i>
+                 <i class="fa-regular fa-star h6"></i>
+                   <i class="fa-regular fa-star h6"></i>
+                  <i class="fa-regular fa-star h6"></i>
+               <i class="fa-regular fa-star h6"></i>
+                    </h3>
+                   </td>
+            <img src="./img5.jpg">
+            <A href="./se5.html">
+            <button type="button">SELECT</button> </A>  
+            <i class="fa-solid fa-bus" id="bus4"> k25</i>
+            <i class="fa-solid fa-phone "id="ph4">987654321</i>
+            <i class="fa-solid fa-user"id="us4">  5</i>   
+        </table>
+    </div>
+    <div class="lb1">
+        <table>
+        
+            <h4>PSS TRANSPORT</h4>
+            <h2>(bharat benz a\c seater/sleeper(2+))<br>
+            time:09:15 <u>09h15m</u> 06:00am<br></h2>
+            <td>
+                <h3 class="ra5">RATINGS
+                   <br>
+                <i class="fa-regular fa-star h6"></i>
+                 <i class="fa-regular fa-star h6"></i>
+                   <i class="fa-regular fa-star h6"></i>
+                  <i class="fa-regular fa-star h6"></i>
+               <i class="fa-regular fa-star h6"></i>
+                    </h3>
+                   </td>
+            <img src="./img6.jpg">
+            <A href="./se6.html">
+            <button type="button">SELECT</button> </A> 
+            <i class="fa-solid fa-bus" id="bus5"> k25</i>
+            <i class="fa-solid fa-phone "id="ph5">987654321</i>
+            <i class="fa-solid fa-user"id="us5">  15</i>   
+        </table>
+    </div>
+    <div class="lb1">
+        <table>
+        
+            <h4>BSP BUS</h4>
+            <h2>(bharat benz a\c seater/sleeper(2+))<br>
+            time:09:00 <u>09h0m</u> 06:35am<br></h2>
+            <td>
+                <h3 class="ra6">RATINGS
+                   <br>
+                <i class="fa-regular fa-star h6"></i>
+                 <i class="fa-regular fa-star h6"></i>
+                   <i class="fa-regular fa-star h6"></i>
+                  <i class="fa-regular fa-star h6"></i>
+               <i class="fa-regular fa-star h6"></i>
+                    </h3>
+                   </td>
+            <img src="./img7.jpg" height="300" width="300">
+            <A href="./se7.html">
+            <button type="button">SELECT</button> </A> 
+            <i class="fa-solid fa-bus" id="bus6"> p25</i>
+            <i class="fa-solid fa-phone "id="ph6">987654321</i>
+            <i class="fa-solid fa-user"id="us6"> 2 5</i>   
+        </table>
+    </div>
+    <div class="lb1">
+        <table>
+                     <h4>SNB TRAVELS</h4>
+            <h2>(bharat benz a\c seater/sleeper(2+))<br>
+            time:11:00 <u>08h15m</u> 07:15am<br></h2>
+            <td>
+                <h3 class="ra7">RATINGS
+                   <br>
+                <i class="fa-regular fa-star h6"></i>
+                 <i class="fa-regular fa-star h6"></i>
+                   <i class="fa-regular fa-star h6"></i>
+                  <i class="fa-regular fa-star h6"></i>
+               <i class="fa-regular fa-star h6"></i>
+                    </h3>
+                   </td>
+            <img src="/img8.jpg" width="300" height="200">
+            <A href="./se8.html">
+            <button type="button">SELECT</button> </A>  <hr><hr>
+            <i class="fa-solid fa-bus" id="bus7"> d25</i>
+            <i class="fa-solid fa-phone "id="ph7">987654321</i>
+            <i class="fa-solid fa-user"id="us7"> 3 5</i>   
+        </table>
+    </div>
+    <div class="lb1">
+        <table>
+        
+            <h4>SHRI AANJANIYAR</h4>
+            <h2>(bharat benz a\c seater/sleeper(2+))<br>
+            time:09:15<u>09h0m</u> 06:15am<br></h2>
+            <td>
+                <h3 class="ra8">RATINGS
+                   <br>
+                <i class="fa-regular fa-star h6"></i>
+                 <i class="fa-regular fa-star h6"></i>
+                   <i class="fa-regular fa-star h6"></i>
+                  <i class="fa-regular fa-star h6"></i>
+               <i class="fa-regular fa-star h6"></i>
+                    </h3>
+                   </td>
+            <img src="./img9.jpg">
+            <A href="./se9.html">
+            <button type="button">SELECT</button> </A>  <hr><hr>
+            <i class="fa-solid fa-bus" id="bus8"> <u></u>25</i>
+            <i class="fa-solid fa-phone "id="ph8">987654321</i>
+            <i class="fa-solid fa-user"id="us8"> 4 5</i>   
+        </table>
+    </div>
+    <div class="lb1">
+        <table>
+        
+            <h4>SRI AUTO TRAVELS</h4>
+            <h2>(bharat benz a\c seater/sleeper(2+))<br>
+            time:09:00 <u>09h0m</u> 06:35am<br></h2>
+            <td>
+                <h3 class="ra9">RATINGS
+                   <br>
+                <i class="fa-regular fa-star h6"></i>
+                 <i class="fa-regular fa-star h6"></i>
+                   <i class="fa-regular fa-star h6"></i>
+                  <i class="fa-regular fa-star h6"></i>
+               <i class="fa-regular fa-star h6"></i>
+                    </h3>
+                   </td>
+            <img src="img10.jpg">
+            <A href="./se10.html">
+            <button type="button">SELECT</button> </A>  <hr><hr>
+            <i class="fa-solid fa-bus" id="bus9"> M27</i>
+            <i class="fa-solid fa-phone "id="ph9">987654321</i>
+            <i class="fa-solid fa-user"id="us9">  55</i>   
+        </table>
+    </div>
+
+
+   
+
+</body>
+</html>

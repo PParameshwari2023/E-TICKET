@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width:8cm;
+            height:7cm;
+            background: linear-gradient(rgb(236, 128, 236),rgb(165, 233, 165));
+            margin-left: 9cm;
+            margin-top: 4cm;
+            box-shadow: 2px,2px,red,solid;
+            border: 2px,red,solid;
+
+        }
+        body{
+        background-color: rgb(98, 98, 243);
+        }
+        input{
+            width:5cm;
+            height:0.7cm;
+            border-radius: 2cm;
+        }
+        button{
+            width:3cm;
+            height:0.7cm;
+        }
+        #img1{
+            position: absolute;
+            width:15cm;
+            left:20cm;
+            top: 2cm;
+            height: 15cm;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <form >
+        <label>OTP<br>
+            <input type="text"><br><br>
+            <a href="./verify.html">
+            <button type="button"> verify</button> 
+        </a>
+        <br>
+            <br>
+        </label>
+        <h3>DO YOU WANT TO SEND TO OTP AGAIN? </h3>
+        <button type="button" >RESEND OTP</button>
+        
+    </form>
+    </fieldset>
+    <img src="./img/otp.png" id="img1">
+</body>
+</html>
